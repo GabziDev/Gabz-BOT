@@ -5,7 +5,7 @@ module.exports = async bot => {
     console.log(`🤖 ${bot.user.tag} est en ligne !`)
 
     const activities = [
-        { name: `Salut 1`, type: 3 }
+        { name: `Salut 1`, type: 3 },
         { name: `Salut 2`, type: 3 },
         { name: `Salut 3`, type: 0 }
     ];
