@@ -1,3 +1,7 @@
 {
-  "token": ""
+  "token": "",
+  "color": "#0fcaa3",
+  "version": "1.0.0-beta",
+  "footer": "GabzDEV bot test © 2023",
+  "icon": "https://gabzdev.ch/"
 }

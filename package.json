@@ -1,5 +1,5 @@
 {
-  "name": "gabz-bot-discord",
+  "name": "gabz-bot",
   "version": "1.0.0",
   "description": "��#\u0000 \u0000G\u0000a\u0000b\u0000z\u0000-\u0000B\u0000O\u0000T\u0000-\u0000d\u0000i\u0000s\u0000c\u0000o\u0000r\u0000d\u0000 \u0000\r\u0000 \u0000\r\u0000 \u0000#\u0000#\u0000#\u0000#\u0000#\u0000 \u0000V\u0000e\u0000r\u0000s\u0000i\u0000o\u0000n\u0000 \u0000:\u0000 \u00001\u0000.\u00000\u0000",
   "main": "main",
@@ -8,16 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GabziDev/Gabz-BOT-discord.git"
+    "url": "git+https://github.com/GabziDev/Gabz-BOT.git"
   },
   "author": "GabzDEV",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GabziDev/Gabz-BOT-discord/issues"
+    "url": "https://github.com/GabziDev/Gabz-BOT/issues"
   },
-  "homepage": "https://github.com/GabziDev/Gabz-BOT-discord#readme",
+  "homepage": "https://github.com/GabziDev/Gabz-BOT#readme",
   "dependencies": {
-    "discord.js": "^14.9.0"
+    "@discordjs/builders": "^1.6.1",
+    "@discordjs/rest": "^1.7.0",
+    "discord.js": "^14.9.0",
+    "mongoose": "^7.0.3"
   }
 }
-

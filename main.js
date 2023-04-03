@@ -1,10 +1,9 @@
 const { Client, GatewayIntentBits } = require('discord.js');
 const bot = new Client({ intents: [GatewayIntentBits.Guilds] });
 const config = require('./config.json');
-
-
-bot.on('ready', () => {
-    console.log(`ℹ: Connecté en tant que ${bot.user.tag} !`);
-});
+const runCommandes = require("./Run/runCommandes");
+const runEvents = require("./Run/runEvents");
 
 bot.login(config.token);
+runCommandes(bot)
+runEvents(bot)
